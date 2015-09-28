@@ -4,7 +4,7 @@
 #
 Name     : inputproto
 Version  : 2.3.1
-Release  : 4
+Release  : 5
 URL      : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.1.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.1.tar.gz
 Summary  : Input extension headers
