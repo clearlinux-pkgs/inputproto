@@ -4,7 +4,7 @@
 #
 Name     : inputproto
 Version  : 2.3.2
-Release  : 8
+Release  : 9
 URL      : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.2.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.2.tar.gz
 Summary  : Input extension headers
@@ -40,10 +40,12 @@ doc components for the inputproto package.
 %setup -q -n inputproto-2.3.2
 
 %build
+export LANG=C
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
 %check
+export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
@@ -62,7 +64,7 @@ rm -rf %{buildroot}
 /usr/include/X11/extensions/XI2.h
 /usr/include/X11/extensions/XI2proto.h
 /usr/include/X11/extensions/XIproto.h
-/usr/lib64/pkgconfig/*.pc
+/usr/lib64/pkgconfig/inputproto.pc
 
 %files doc
 %defattr(-,root,root,-)
