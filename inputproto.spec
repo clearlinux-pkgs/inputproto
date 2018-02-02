@@ -6,7 +6,7 @@
 #
 Name     : inputproto
 Version  : 2.3.2
-Release  : 12
+Release  : 13
 URL      : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.2.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.2.tar.gz
 Source99 : http://xorg.freedesktop.org/releases/individual/proto/inputproto-2.3.2.tar.gz.sig
